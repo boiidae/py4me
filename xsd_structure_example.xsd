@@ -1,0 +1,13 @@
+<person>
+  <lastname>Hanson</lastname>
+  <age>56</age>
+  <dateborn>1964-08-20</dateborn>
+</person)
+
+
+<xs:complexType name="person">
+  <xs:sequence>
+    <xs:element name="lastname" type="xs:string"/>
+    <xs:element name="age" type="xs:interger"/>
+  </xs:sequence>
+</xs:complexType>
